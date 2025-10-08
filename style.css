@@ -33,6 +33,16 @@ img {
   height: 500px;
   width: auto;
 }
+ul li {
+  list-style-type: square;
+}
+ol li {
+  list-style-type: upper-roman;
+}
+/* no touchy */
+ul, ol {
+  padding-left: 40px;
+}
 
 
 
