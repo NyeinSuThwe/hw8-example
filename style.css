@@ -12,6 +12,11 @@ h1 {
   font-weight: bold;
   text-align: center;
 }
+h2 {
+  font-size: 1.5rem;                               /* 1.5× root */
+  text-decoration: underline dashed #f25f4c;       /* corrected syntax */
+  font-weight: bold;
+}
 
 
 
