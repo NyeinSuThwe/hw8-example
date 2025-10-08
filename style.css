@@ -5,6 +5,13 @@ html {
   font-size: 16px;                           /* required */
   color: #a7a9be;                            /* required */
 }
+h1 {
+  font-size: 3.5rem;     /* 3.5× root */
+  color: #fffffe;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
 
 
 
