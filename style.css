@@ -28,6 +28,11 @@ a:visited {
   color: #f25f4c;
 }
 
+img {
+  opacity: 0.7;   /* 70% */
+  height: 500px;
+  width: auto;
+}
 
 
 
