@@ -1,3 +1,10 @@
+html {
+  background-color: #0f0e17;                 /* required */
+  background-image: url("assets/background.png"); /* your corrected path */
+  font-family: Tahoma, sans-serif;           /* required */
+  font-size: 16px;                           /* required */
+  color: #a7a9be;                            /* required */
+}
 
 
 
