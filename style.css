@@ -1,10 +1,12 @@
 html {
   background-color: #0f0e17;                 /* required */
-  background-image: url("assets/background.png"); /* your corrected path */
+  background-image: url("assets/background.png"); /* corrected path */
   font-family: Tahoma, sans-serif;           /* required */
   font-size: 16px;                           /* required */
   color: #a7a9be;                            /* required */
 }
+
+/* Headings */
 h1 {
   font-size: 3.5rem;     /* 3.5× root */
   color: #fffffe;
@@ -12,14 +14,18 @@ h1 {
   font-weight: bold;
   text-align: center;
 }
+
 h2 {
-  font-size: 1.5rem;                               /* 1.5× root */
-  text-decoration: underline dashed #f25f4c;       /* corrected syntax */
+  font-size: 1.5rem;                        /* 1.5× root */
+  text-decoration: underline dashed #f25f4c; /* dashed underline */
   font-weight: bold;
 }
+
+/* Lists & Links */
 li {
   line-height: 2.5;
 }
+
 a:link {
   color: #f25f4c;
 }
@@ -28,25 +34,24 @@ a:visited {
   color: #f25f4c;
 }
 
+/* Image Styling */
 img {
   opacity: 0.7;   /* 70% */
   height: 500px;
   width: auto;
 }
+
+/* Bullet and Number Styles */
 ul li {
   list-style-type: square;
 }
+
 ol li {
   list-style-type: upper-roman;
 }
-/* no touchy */
-ul, ol {
-  padding-left: 40px;
-}
-
-
 
 /* no touchy */
-ul, ol {
+ul,
+ol {
   padding-left: 40px;
 }
