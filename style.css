@@ -17,6 +17,10 @@ h2 {
   text-decoration: underline dashed #f25f4c;       /* corrected syntax */
   font-weight: bold;
 }
+li {
+  line-height: 2.5;
+}
+
 
 
 
